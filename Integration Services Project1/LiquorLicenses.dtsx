@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="LiquorLicenses"
   DTS:PackageType="5"
-  DTS:VersionBuild="143"
-  DTS:VersionGUID="{14FC3D8F-B5C4-4F59-95B5-B1C5AAF69BD0}">
+  DTS:VersionBuild="144"
+  DTS:VersionGUID="{95A4F5A8-7877-4614-8A9A-5A65CEBF3F0E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAATJLHvFSAZQGFMnm9tlY8CAAAAAASAAACgAAAAEAAAAJ0qeqtAy3qnycrAYpVCx9gIAAAAlCfs06QgDk0UAAAAV2tXA+etDVA0Z5VGU9E+/RYKt6A</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACtqkePkKUeOMl67woC/Hh3AAAAAASAAACgAAAAEAAAALHzzdpzfMoyfpUvazzO3OwIAAAAGFuV0xGukOcUAAAAporD5W/Xiu+1xtQSDI5sXvFU3HU</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADn6hRRzx9V2IDctqrI15LOAAAAAASAAACgAAAAEAAAAH436vNq5ICOavixsPuow28IAAAAJD9zCv0ufS0UAAAA5sFRPpRbx4/nZ+cHYzC4YXlNz1k</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAjyxUjGEvePIqfAsEDYWk5AAAAAASAAACgAAAAEAAAAIa4u8EVL826MM9srwSMBW8IAAAA/kt2xdG4c/gUAAAAlm0HNb7LtmqwgmLkjuDcSQRhTY0</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -83,7 +83,7 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\CH-1\Shared\IS\Business Intelligence\OpenData\DataSetsForDataSyncJobs\LiquorLicenses\LiquorLicensesDataset_FAILED_20231017_141930.csv">
+          DTS:ConnectionString="\\CH-1\Shared\IS\Business Intelligence\OpenData\DataSetsForDataSyncJobs\LiquorLicenses\LiquorLicensesDataset_FAILED_20231017_143648.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -338,7 +338,7 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAQ13ZPNTdyrCnLmZ2J5plaAAAAAASAAACgAAAAEAAAAJrVi6L8AZtsbLiRg1RrNqEIAAAAJsSVlgPsRoQUAAAAEV11/fdhk6BmgvR5GFBnjUoG17A</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADPSMBXCogBg+aBzOhUA72qAAAAAASAAACgAAAAEAAAAGtp9Rx5f5utuelnBqmwmEQIAAAAfJuPt1OF6TkUAAAAq8K5lB3GyrEcFMUsJwCejtJ73Tg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -375,7 +375,7 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\CH-1\Shared\IS\Business Intelligence\OpenData\DataSetsForDataSyncJobs\LiquorLicenses\LiquorLicensesDataset_20231017_141930.csv">
+          DTS:ConnectionString="\\CH-1\Shared\IS\Business Intelligence\OpenData\DataSetsForDataSyncJobs\LiquorLicenses\LiquorLicensesDataset_20231017_143648.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -523,6 +523,19 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
   </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
+      DTS:refId="Package\ADDED AS A TEST"
+      DTS:CreationName="Microsoft.ExecuteProcess"
+      DTS:Description="Execute Process Task"
+      DTS:DTSID="{AC1C0BB7-3452-400F-9443-06C147FAF1A1}"
+      DTS:ExecutableType="Microsoft.ExecuteProcess"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="ADDED AS A TEST"
+      DTS:TaskContact="Execute Process Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData />
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Failed Upload - Move Archive file to FailedUpload folder"
       DTS:CreationName="Microsoft.FileSystemTask"
       DTS:Description="File System Task"
@@ -531,7 +544,7 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
       DTS:LocaleID="-1"
       DTS:ObjectName="Failed Upload - Move Archive file to FailedUpload folder"
       DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2014; © 2014 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <FileSystemData
@@ -548,7 +561,7 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
       DTS:LocaleID="-1"
       DTS:ObjectName="FAILURE - Liquor Licenses PostExecute Audit Table Update"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2014; © 2014 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -572,7 +585,7 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
       DTS:LocaleID="-1"
       DTS:ObjectName="Liquor Licenses PreExecute Audit Table Insert"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2014; © 2014 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -635,7 +648,7 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Script to call LiquorLicenses Datasync job and pass the Parameters"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
@@ -645,14 +658,35 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
           Language="CSharp"
           ReadOnlyVariables="$Package::SIJLocation">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_649ac2299154488dae07520ac4a8dda6")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyProduct("ST_649ac2299154488dae07520ac4a8dda6")]
+[assembly: AssemblyCopyright("Copyright @ Microsoft 2016")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -1036,35 +1070,14 @@ namespace ST_649ac2299154488dae07520ac4a8dda6.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_649ac2299154488dae07520ac4a8dda6")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("ST_649ac2299154488dae07520ac4a8dda6")]
-[assembly: AssemblyCopyright("Copyright @ Microsoft 2016")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -1263,7 +1276,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:LocaleID="-1"
       DTS:ObjectName="SUCCESS - Liquor Licenses PostExecute Audit Table Update"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2014; © 2014 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -1287,7 +1300,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:LocaleID="-1"
       DTS:ObjectName="Successful Upload - Move Archive file to Folder"
       DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2014; © 2014 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <FileSystemData
@@ -1397,6 +1410,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Size="300.8,41.6"
           Id="Package\Successful Upload - Move Archive file to Folder"
           TopLeft="181,605" />
+        <NodeLayout
+          Size="98.4,41.6"
+          Id="Package\Test"
+          TopLeft="305.171430675838,223.623530012349" />
+        <NodeLayout
+          Size="102.4,41.6"
+          Id="Package\TEST"
+          TopLeft="620.742864417057,240.494118955474" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
           TopLeft="475.333333333333,387">
@@ -1524,13 +1545,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="102.4,41.6"
-          Id="Package\TEST"
-          TopLeft="620.742864417057,240.494118955474" />
-        <NodeLayout
-          Size="98.4,41.6"
-          Id="Package\Test"
-          TopLeft="305.171430675838,223.623530012349" />
+          Size="165.6,41.6"
+          Id="Package\ADDED AS A TEST"
+          TopLeft="415.742860925928,262.670589854726" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
