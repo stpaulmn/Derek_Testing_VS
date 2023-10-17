@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="LiquorLicenses"
   DTS:PackageType="5"
-  DTS:VersionBuild="141"
-  DTS:VersionGUID="{C8FFB6A6-AA87-4205-8319-A81F43B1A787}">
+  DTS:VersionBuild="143"
+  DTS:VersionGUID="{14FC3D8F-B5C4-4F59-95B5-B1C5AAF69BD0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABBznqGt2Xq5LvETTaroxQpAAAAAASAAACgAAAAEAAAADMy26bgfqb8fJnW08muK4IIAAAAjW82TKJUxq8UAAAAuY+1pTBUL4oD3s5oQqPcKAM0/IE</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAATJLHvFSAZQGFMnm9tlY8CAAAAAASAAACgAAAAEAAAAJ0qeqtAy3qnycrAYpVCx9gIAAAAlCfs06QgDk0UAAAAV2tXA+etDVA0Z5VGU9E+/RYKt6A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAD3bHJVwYzYuFfSBayQxqmYAAAAAASAAACgAAAAEAAAACDSvBQ5gaI/Mh8AqswhQWcIAAAAP2bcsQCRKlsUAAAAVWGyaKYl4eGGnfngSvL/bQlLdm0</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADn6hRRzx9V2IDctqrI15LOAAAAAASAAACgAAAAEAAAAH436vNq5ICOavixsPuow28IAAAAJD9zCv0ufS0UAAAA5sFRPpRbx4/nZ+cHYzC4YXlNz1k</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -83,7 +83,7 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\CH-1\Shared\IS\Business Intelligence\OpenData\DataSetsForDataSyncJobs\LiquorLicenses\LiquorLicensesDataset_FAILED_20231017_135846.csv">
+          DTS:ConnectionString="\\CH-1\Shared\IS\Business Intelligence\OpenData\DataSetsForDataSyncJobs\LiquorLicenses\LiquorLicensesDataset_FAILED_20231017_141930.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -338,7 +338,7 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABefwj6iy3Srx5Hp8hQ9KnlAAAAAASAAACgAAAAEAAAAFe9G4WwKvQ7/fAgVHn8GUgIAAAAKI/YgE2QNOkUAAAAtYiS9IV9ra0bpDgopO5K9vKJOcE</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAykCpYRki1UGoePWsx+gilwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAQ13ZPNTdyrCnLmZ2J5plaAAAAAASAAACgAAAAEAAAAJrVi6L8AZtsbLiRg1RrNqEIAAAAJsSVlgPsRoQUAAAAEV11/fdhk6BmgvR5GFBnjUoG17A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -375,7 +375,7 @@ RIGHT("0" + (DT_WSTR,2)DATEPART("ss",GetDate()),2) +".csv"</DTS:PropertyExpressi
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\CH-1\Shared\IS\Business Intelligence\OpenData\DataSetsForDataSyncJobs\LiquorLicenses\LiquorLicensesDataset_20231017_135846.csv">
+          DTS:ConnectionString="\\CH-1\Shared\IS\Business Intelligence\OpenData\DataSetsForDataSyncJobs\LiquorLicenses\LiquorLicensesDataset_20231017_141930.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1310,6 +1310,21 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           version="1" />
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Test"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{ED6CFFA8-30CD-46CD-85D4-2F903AF95ACF}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Test"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -1512,6 +1527,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Size="102.4,41.6"
           Id="Package\TEST"
           TopLeft="620.742864417057,240.494118955474" />
+        <NodeLayout
+          Size="98.4,41.6"
+          Id="Package\Test"
+          TopLeft="305.171430675838,223.623530012349" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
